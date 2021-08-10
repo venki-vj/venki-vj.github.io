@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 90%;
+    background-color:aqua;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+}
+section h1{
+    flex: 1;
+}
+section ul {
+    flex: 1;
+    
+}
+
+section ul li{
+    align-items: center;
+    float: left;
+    margin: 5px;
+    justify-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+}
